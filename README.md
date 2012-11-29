@@ -5,6 +5,17 @@ Monitors a product's price on Amazon and adds to cart as soon as price drops bel
 
 Written in [PhantomJS](http://phantomjs.org/) with [CasperJS](http://casperjs.org/) framework.
 
+## Installing PhantomJS and CasperJS
+
+If you're on a Mac, it's quite simple using Homebrew.
+
+```
+brew install phantomjs
+brew install casperjs
+```
+
+You may also download and install each from the websites above.
+
 ## Setting up the script
 
 There are fields at the top of the script you will need to modify.
