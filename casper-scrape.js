@@ -1,12 +1,12 @@
 var casper = require('casper').create();
 
 var priceThreshhold = 900.00, // this would be $900.00
-    productUrl = "", // full URL to specific product page
+    productUrl = "http://www.amazon.com/path/to/product/", // full URL to specific product page
     refreshInterval = 5, // in ms
     scriptTimeout = 86400000, // 1 day in ms
-    loginEmail = "",
-    loginPassword = "",
-    loginName = ""; // login name as it appears at top of Amazon.com when logged in
+    loginEmail = "jenny@example.com",
+    loginPassword = "tutone8675309",
+    loginName = "Jenny"; // login name as it appears at top of Amazon.com when logged in
 
 var timestamp = function() {
   return (new Date((new Date().getTime() / 1000) * 1000));
