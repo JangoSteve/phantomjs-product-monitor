@@ -20,30 +20,73 @@ You may also download and install each from the websites above.
 
 There are fields at the top of the script you will need to modify.
 
-* `priceThreshhold`: This is the dollar amount for which the script will
+<table>
+<tr>
+<th>
+`priceThreshhold`
+</th><td>
+This is the dollar amount for which the script will
   add the product to your cart once the price of the product falls below
 it.
-
-* `productUrl`: This is the URL to the product page on Amazon.com.
-
-* `refreshInterval`: This is the amount of time the script will wait
+</td>
+</tr>
+<tr>
+<th>
+`productUrl`
+</th>
+<td>
+This is the URL to the product page on Amazon.com.
+</td>
+</tr>
+<tr>
+<th>
+`refreshInterval`
+</th>
+<td>
+This is the amount of time the script will wait
   before refreshing the product page when the price is still above the
 `priceThreshhold`, in milliseconds. Must be greater than zero.
-
-* `scriptTimeout`: This is the maximum amount of time the script will
-  continue reloading the product page and checking the price, in
-milliseconds. Once this
-amount of time has elapsed, the script will exit. The default value is
-for 1 day.
-
-* `loginEmail`: This is the email you login with to Amazon.com.
-
-* `loginPassword`: This is your password.
-
-* `loginName`: This is the first name Amazon has stored for your account.
+</td>
+</tr>
+<tr>
+<th>
+`scriptTimeout`
+</th>
+<td>
+This is the maximum amount of time the script will 
+continue reloading the product page and checking the price, in milliseconds.
+Once this amount of time has elapsed, the script will exit.
+The default value is for 1 day.
+</td>
+</tr>
+<tr>
+<th>
+`loginEmail`
+</th>
+<td>
+This is the email you login with to Amazon.com.
+</td>
+</tr>
+<tr>
+<th>
+`loginPassword`
+</th>
+<td>
+This is your password.
+</td>
+</tr>
+<tr>
+<th>
+`loginName`
+</th>
+<td>
+This is the first name Amazon has stored for your account.
   It's the name that shows up on the top right of the page when you're
 signed in. It's how the script tells whether or not your already signed
 in, thus being able to skip the signin step.
+</td>
+</tr>
+</table>
 
 ## How to run
 
