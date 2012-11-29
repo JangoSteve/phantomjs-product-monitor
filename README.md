@@ -23,7 +23,9 @@ There are fields at the top of the script you will need to modify.
 <table>
 <tr>
 <th>
-`priceThreshhold`
+<code>
+priceThreshhold
+</code>
 </th><td>
 This is the dollar amount for which the script will
   add the product to your cart once the price of the product falls below
@@ -32,7 +34,9 @@ it.
 </tr>
 <tr>
 <th>
-`productUrl`
+<code>
+productUrl
+</code>
 </th>
 <td>
 This is the URL to the product page on Amazon.com.
@@ -40,17 +44,21 @@ This is the URL to the product page on Amazon.com.
 </tr>
 <tr>
 <th>
-`refreshInterval`
+<code>
+refreshInterval
+</code>
 </th>
 <td>
 This is the amount of time the script will wait
   before refreshing the product page when the price is still above the
-`priceThreshhold`, in milliseconds. Must be greater than zero.
+<code>priceThreshhold</code>, in milliseconds. Must be greater than zero.
 </td>
 </tr>
 <tr>
 <th>
-`scriptTimeout`
+<code>
+scriptTimeout
+</code>
 </th>
 <td>
 This is the maximum amount of time the script will 
@@ -61,7 +69,9 @@ The default value is for 1 day.
 </tr>
 <tr>
 <th>
-`loginEmail`
+<code>
+loginEmail
+</code>
 </th>
 <td>
 This is the email you login with to Amazon.com.
@@ -69,7 +79,9 @@ This is the email you login with to Amazon.com.
 </tr>
 <tr>
 <th>
-`loginPassword`
+<code>
+loginPassword
+</code>
 </th>
 <td>
 This is your password.
@@ -77,7 +89,9 @@ This is your password.
 </tr>
 <tr>
 <th>
-`loginName`
+<code>
+loginName
+</code>
 </th>
 <td>
 This is the first name Amazon has stored for your account.
